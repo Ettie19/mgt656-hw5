@@ -5,4 +5,8 @@ app.get('/', function(request, response){
     response.send('Hello MGT-656!');
 });
 
+app.get('/thoughtful-cheetah', function(request, response){
+    response.send('Using my class nickname');
+});
+
 app.listen(process.env.PORT || 4000);
